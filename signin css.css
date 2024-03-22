@@ -1,0 +1,44 @@
+body {
+      background-color: rgb(88, 88, 88);
+      /* text-decoration-color:aqua; */
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.main-container {
+      overflow:auto;
+      /* margin: auto; */
+      /* max-width: 600px; */
+      height: 110vh;
+      /* padding: 10px; */
+      /* backdrop-filter: blur(10px); */
+      
+      /* border: 2px solid green; */
+      /* border-radius: 30px; */
+      box-shadow: 0px 0px 10px #00aa00;
+      text-align: left;
+      border-radius: 15px;
+      padding: 40px;
+      margin: 20px;
+      max-width: 500px;
+  }
+  .buttons {
+      cursor: pointer;
+      width: 40%;
+      padding: 15px;
+      border: none;
+      border-radius: 15px;
+      color: white;
+      background-color: #00aa00;
+      font-size: medium;
+      transition: all 0.4s;
+      margin : 10px 20px 30px 20px;
+      border-radius: 20px;
+  }
+  #Full-Name,#User-Name,#residence,#email,#Phone-number,#Password{
+      border: 2px solid #289292;
+      width: 80%;
+      padding: 20px;
+      margin: 10px 20px 30px 20px;
+      border-radius: 20px;
+      transition: all 0.4s;
+  }
